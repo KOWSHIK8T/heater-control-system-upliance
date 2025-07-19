@@ -29,7 +29,8 @@ This repository contains the full source code and documentation for the project.
 * 3 x LEDs (for status indicators: Heating, Target Reached, Overheat)
 * 1 x Piezo Buzzer
 * 1 x 4.7kΩ Resistor (as a pull-up for the DS18B20 sensor)
-* Breadboard and Jumper Wires
+* 1 x 1ch Relay
+* Zero pcb, solder, Wires
 
 ---
 
@@ -47,7 +48,7 @@ The system operates based on a state machine. The current state is determined by
 
 ## Running the Simulation (Wokwi)
 
-Don't have hardware? No problem! Run the project in your browser:
+Run the project in your browser:
 
 1. Click the Wokwi simulation link above.
 2. Press the green "Start Simulation" button.
